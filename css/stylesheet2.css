@@ -1,0 +1,94 @@
+.human-body {
+  position: relative;
+  width: 200px;
+  height: 400px;
+  margin: 100px auto;
+}
+
+.head {
+  position: absolute;
+  top: -50px;
+  left: 75px;
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.eyes {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 15px;
+  height: 15px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.mouth {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  width: 40px;
+  height: 15px;
+  background-color: #ffcccb;
+  border-radius: 10px;
+}
+
+.torso {
+  position: absolute;
+  top: 50px;
+  left: 75px;
+  width: 100px;
+  height: 150px;
+}
+
+.arm {
+  position: absolute;
+  width: 120px;
+  height: 30px;
+}
+
+.left-arm {
+  transform: rotate(45deg);
+}
+
+.right-arm {
+  transform: rotate(-45deg);
+}
+
+.leg {
+  position: absolute;
+  width: 40px;
+  height: 150px;
+}
+
+.left-leg {
+  bottom: -50px;
+  left: 80px;
+}
+
+.right-leg {
+  bottom: -50px;
+  right: 80px;
+}
+
+/* Male Body Styles */
+.male .torso {
+  background-color: #00bfff;
+}
+
+.male .arm,
+.male .leg {
+  background-color: #00bfff;
+}
+
+/* Female Body Styles */
+.female .torso {
+  background-color: #ff69b4;
+}
+
+.female .arm,
+.female .leg {
+  background-color: #ff69b4;
+}
