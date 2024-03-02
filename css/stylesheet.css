@@ -6,6 +6,7 @@
 }
 body{
     color: #ededed;
+    background: #081b29;
 }
 .header{
     position: fixed;
@@ -50,7 +51,7 @@ body{
     width:100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(../images/bluebg.png) no-repeat;
+    background: url(../images/nobg.png) no-repeat;
     background-size: cover;
     background-position: center;
     display:flex;
@@ -64,7 +65,7 @@ body{
     font-size: 32px;
     font-weight: 700;
     opacity:0;
-    animation:slideBottom 1s ease forwards;
+    animation:slideBottom  ease forwards;
 }
 .home-content h3 span{
     color:#0ef;
@@ -180,4 +181,26 @@ body{
         transform:translateY(0px);
         opacity:1;
     }
+}
+
+.about{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1rem;
+}
+
+.about-img img{
+    padding-bottom: 20%;
+    max-width: 630px;
+    height:auto;
+    width: 100%;
+    border-radius: 5px;
+    border:9px solid #0ef;
+}
+.about-text h2{
+    font-size: 60px;
+}
+.about-text h2 span{
+    color:#0ef;
 }
